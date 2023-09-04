@@ -1,0 +1,8 @@
+﻿PartitionKey,RowKey,CapacityMin,CapacityMax,MaxInstanceScaling,Recurrance,TimeStart,TimeEnd,Description
+default,1,1,20,2,,,,The default schedule 24-7
+bankholiday,2,1,20,2,,,,bank holiday schedule (generated from an API call)
+off,3,0,0,2,,,,The off schedule - no vms running
+manual,4,-1,,2,,,,Manual schedule - AA will not apply a schedule or controls
+poc,5,12,1000,4,weekdays,07:30:00,10:30:00,Morning wakeup schedule
+poc,6,8,1000,2,weekdays,10:30:00,18:00:00,Normal running schdule
+poc,7,4,1000,2,weekdays,18:00:00,22:00:00,Evening schedule

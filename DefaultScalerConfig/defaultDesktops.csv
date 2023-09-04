@@ -1,0 +1,3 @@
+PartitionKey,RowKey,Desktop,VMCapacity,AppliedSchedules,MaintenanceWindowStart,MaintenanceWindowEnd,VMImage,VMImageVersion,DesktopSubID,DesktopRG,HPName,VMSSName,RunEnvironment
+prod,1,poc,4,"bankholiday,poc",05:00,06:00,poc,latest,<change me>,EHP-RG-POC-PROD,ehppoc-hp-prod,ehppoc-vmss-prod,ehpprod
+dev,24,poc,4,manual,05:00,06:00,poc,latest,<change me>,EHP-RG-POC-DEV,ehppoc-hp-dev,ehppoc-vmss-dev,ehpdev
